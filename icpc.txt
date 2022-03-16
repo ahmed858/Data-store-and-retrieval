@@ -1,0 +1,227 @@
+Mission
+
+
+The International Collegiate Programming Contest (ICPC) provides college students with opportunities to interact with students from other universities and to sharpen and demonstrate their problem-solving, programming, and teamwork skills.  The contest provides a platform for industry, and academia to encourage and focus public attention on the next generation of computing professionals as they pursue excellence. (from the ICPC Policies and Procedures)
+
+
+
+Introduction
+
+
+The contest is a two-tiered competition among teams of students representing institutions of higher education. Teams first compete in Regional Contests, held around the world from September to December each year. Based on their performance in Regional Contests, top-ranking teams advance to the International Collegiate Programming Contest World Finals. Additional high-ranking teams may be invited to the World Finals.  At most 140 teams will be invited to compete onsite.  These rules are subject to change.
+
+
+
+ICPC World Finals has two competitions, the ICPC World Finals Championship and the ICPC World Finals Invitational.  Each is on a level playing field meeting academically sound requirements.  The Championship competition is conducted on the traditional level playing field which determines the team ranking, medals, and World Championship.  The Invitational competition is conducted on an academically sound playing field for World Finalist teams who will compete remotely under the oversight of their institutions which will determine the team ranking, and medals.
+
+
+
+Organization
+
+
+The ICPC is organized according to the ICPC Policies and Procedures.  The Executive Committee, chaired by the Executive Director, sets the policy and general rules for the conduct of the contest. The Executive Director is solely responsible for interpreting the rules and for ruling on unforeseen situations.
+
+
+
+Team Requirements
+
+
+Teams qualify to advance to the World Finals through Regional Contests. See the ICPC Regional Rules and Region-Specific Rules for details on advancing to the World Finals.  Only one team from a given institution may advance to the World Finals. No team member on the qualifying team may have competed as a contestant in two previous World Finals.
+
+
+
+The coach of a qualifying team is the point-of-contact before and during World Finals activities. A contestant of a team may not serve as the coach.  The coach must complete certification at the Team Certification Web Site within five (5) business days of notification.  Qualifying teams will be invited by email and postal mail (if requested) soon after completing certification.
+
+
+
+ICPC World Finals Championship:
+
+All team members who are attending the team’s institution on visas must have permission to return to their point of origin after the World Finals.  Qualifying teams requiring visas must initiate the process of applying for visas within 10 business days of being invited to apply for a visa. Teams failing to comply with any of these requirements will be ruled ineligible to compete in the World Finals.  Upon completion of these requirements, a qualifying team will be advanced to the World Finals.
+
+
+
+A team advancing to the World Finals will be comprised of the same three members as when it qualified. (Reserves are not allowed at the Finals.)  If a team member is unwilling, unable, or unfit to compete in the World Finals, the coach must notify the manager in a timely manner. A team member who is unwilling or unfit to compete in the World Finals will be disqualified from further ICPC competitions.  The team member may appeal disqualification to the Appeals Committee.
+
+
+
+At on-site registration, participants must provide picture ID (passport, driver's license, etc).  Contestants must show proof of enrollment at the university during the term of the regional contest at which they qualified.  A letter on university stationery with the signature of a university official accompanied by an English translation is sufficient.
+
+
+
+Due to COVID, exceptions to these rules take precedent.  All team members are responsible to follow all health safety rules.
+
+
+
+ICPC World Finals Invitational:
+
+
+
+All teams must compete solely with the team members registered to compete in the Invitational.  A team may compete with fewer team members.
+
+
+
+Attendance
+
+
+ICPC World Finals Championship:
+
+Finalists must attend all required events from On-Site Registration to Celebration as indicated in the Schedule of Events.  Failure to attend any required event will result in disqualification and forfeiture of scholarships and prizes.  Coaches must be accessible during On-Site Registration, Dress Rehearsal, the World Finals Championship, and the Closing Ceremony.
+
+
+Support and Prizes
+
+
+ICPC World Finals Championship:
+
+Each finalist team will be provided with hotel accommodations for the coach and three contestants according to dates published on ICPC Invitations. The hotel accommodations will provide gender privacy.  The teams and coaches will be treated to a full schedule of activities including a full course of complimentary food functions.
+
+
+
+Transportation to the World Finals is the responsibility of the finalists.  The ICPC encourages teams to raise funds for transportation and extracurricular activities from local sources to better strengthen community ties among academia, industry, and government.
+
+
+
+Teams finishing in the top four positions will be awarded Gold Medals.  Those teams finishing fifth through eighth place will be awarded Silver Medals.  Those teams finishing ninth through twelfth place will receive Bronze Medals. Additional Bronze Medals may be awarded to teams solving the same number of problems as the twelfth place team and in a total elapsed time no more than 60 minutes more than the twelfth place team.  Such teams will be awarded twelfth place.
+
+
+
+The highest scoring team is the World Champion and will receive the World Champion Cup and plaques.  The other top eleven teams, the Africa & Arab Champions, the Asia East Champions, the Asia Pacific Champions, the Asia West Champions, the Europe Champions, the Latin America Champions, the Northern Eurasia Champions, the North America Champions, and the South Pacific Champions will also receive plaques.
+
+
+
+ICPC World Finals Invitational:
+
+Teams are ranked by honors:  High Honors (top 25%), Honors (next 25%), and Honorable Mention (remaining teams solving problems).  Teams meeting all qualifications and certified by their university representative will be eligible for awards.  Awards may include medals as determined by the Judges.
+
+
+
+Conduct of the Finals
+
+
+ICPC World Finals Championship:
+
+Ten or more problems have been posed in recent World Finals.
+
+
+
+Problems will be posed in English. During the contest, all communications from contest officials to contestants will be in English. Each team may identify an interpreter for translating questions posed by contestants to contest officials. Contestants may bring electronic natural language translators provided that they do not support math operations.
+
+
+
+Solutions to problems submitted for judging are called runs. Each run is judged as accepted or rejected, and the team is notified of the results. Rejected runs will be marked as follows:
+
+
+
+run-time error
+time-limit exceeded
+wrong answer
+
+
+Notification of accepted runs may be suspended at the appropriate time to keep the final results secret. A general announcement to that effect will be made during the contest. Notification of rejected runs will continue until the end of the contest.
+
+
+
+A contestant may submit a claim of ambiguity or error in a problem statement by submitting a clarification request. If the Judges agree that an ambiguity or error exists, a clarification will be issued to all contestants.
+
+
+
+The competition is scheduled to last five hours.  The Finals Director has the authority to lengthen the contest in the event of unforeseen circumstances. Should the Contest duration be altered, every attempt will be made to notify contestants in a timely and uniform manner.
+
+
+
+ICPC World Finals Invitational:
+
+The Invitational is conducted similarly to the Championship with the competition lasting five hours.  The scoreboard is frozen one hour before the end of the contest.  The judges will review the results, submissions, and archival materials as necessary to certify team performance.  The Teams will be introduced during the World Finals Opening Ceremony.  During the Championship competition, the Invitational scoreboard will be resolved to determine honors. Awards will be given at the Awards Ceremony.
+
+
+
+Scoring of the Finals
+
+
+ICPC World Finals Championship:
+
+The World Finals Judges are solely responsible for determining the correctness of submitted runs. In consultation with the World Finals Judges, the Director of Judging is responsible for determining the winners of the World Finals. They are empowered to adjust for or adjudicate unforeseen events and conditions. Their decisions are final.
+
+
+
+Teams are ranked according to the most problems solved. Teams placing in the first twelve places who solve the same number of problems are ranked first by least total time and, if need be, by the earliest time of submittal of the last accepted run.
+
+
+
+The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.
+
+
+
+ICPC World Finals Invitational:
+
+The World Finals Judges are solely responsible for determining the correctness of submitted runs. In consultation with the World Finals Judges, the Director of Judging is responsible for determining the winners of the World Finals. They are empowered to adjust for or adjudicate unforeseen events and conditions. Their decisions are final.
+
+
+
+For the purpose of making awards, teams are ranked according to the most problems solved. Teams placing in the top 10% who solve the same number of problems are ranked first by least total time and, if need be, by the earliest time of submittal of the last accepted run.
+
+
+
+The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.
+
+
+
+Computing Environment
+
+
+ICPC World Finals Championship:
+
+The World Finals programming language tools include Java, C, C++, Kotlin and Python.  See the Programming Environment Web Site for detailed configuration information.  Before the World Finals, the judges will have solved all problems in languages from at least two of the three distinct language groups (Java/Kotlin, C/C++, and Python).
+
+
+
+Each team member will be provided with a computer.  All teams will have equivalent computing equipment.  (Individual computers are provided for health safety purposes.)
+
+
+
+Contestants may not bring any printed materials or machine-readable versions of software or data to the Contest Area. Contestants may not bring their own computers, computer terminals, calculators, or other electronic devices to the Contest Area.
+
+
+
+Each team member may bring an unannotated natural language printed dictionary.  On-line reference materials will be made available as described in the Reference Materials section of the Programming Environment Web Site.   Each team will be permitted three copies of the Team Reference Document described in the On-Site Registration Instructions.
+
+
+
+ICPC World Finals Invitational:
+
+The World Finals programming language tools include Java, C, C++, Kotlin and Python.  See the Programming Environment Web Site for detailed configuration information.  Before the World Finals, the judges will have solved all problems in languages from at least two of the three distinct language groups (Java/Kotlin, C/C++, and Python).
+
+
+
+Each team will compete at a proctored site designated by the coach and approved by an institutional representative, preferably at the institution's campus.  The institution may provide each team member with a computer.  All team members should have computing equipment comparable to the Championship workstations described at Programming Environment Web Site.  Competition must be under the oversight of the coach and the team's institutional representative.  The institutional representative must certify that the team competed within the rules, with no lapse of proctoring, in a proctored environment with video monitoring and archival materials made available to judges during the Judges' Review.  Proctoring may be by recorded video, but the record must be conclusive and without interruption to qualify for ranking in the top 10%.  Should a team need to compete at multiple-sites, the institutional representative must make a case for equivalence. 
+
+
+
+The sole use of Internet access is to access the on-line competition and to communicate solely with team mates.  Contestants may not bring any printed materials or machine-readable versions of software or data to their Team Area. Contestants may not bring their own computers, computer terminals, calculators, or other electronic devices to their Team Area.  Each team member may bring an unannotated natural language printed dictionary.  On-line reference materials will be made available as described in the Reference Materials section of the Programming Environment Web Site.   Each team will be permitted three copies of the Team Reference Document described in the On-Site Registration Instructions.
+
+
+Contestant Conduct
+
+
+ICPC World Finals Championship:
+
+DO NOT TOUCH ANYTHING at the team workstations until so directed by the Finals Director.
+
+Contestants are not to converse with anyone except members of their team and personnel designated by the Finals Director. Systems support staff may advise contestants on system-related problems such as explaining system error messages.
+
+A team may be disqualified by the Finals Director for any activity that jeopardizes the World Finals such as dislodging extension cords, unauthorized modification of contest materials, or distracting behavior.
+
+
+
+ICPC World Finals Invitational:
+
+DO NOT TOUCH ANYTHING at the team workstations until so directed by the designated proctor.
+
+Contestants are not to converse with anyone except members of their team and personnel designated by the proctor. Systems support staff may advise contestants on system-related problems such as explaining system error messages.
+
+A team may be disqualified for any activity that jeopardizes the competition.   
+Regionals
+Students from a field of over 300,000 students of computer science disciplines are selected to take part in local contests used to assess skills and select teams to advance to regional contests. Regional contests are held geographically and challenge teams of three university students to solve a collection of complex, real-world algorithmic challenges, with a grueling five-hour deadline. Collaborating around a shared computer with a problem statement, teams race against the clock in an intense exercise of reasoning, strategy, and persistence.
+The team or teams that solve the greatest number of problems in the fewest attempts in the least cumulative time are declared the regional winners and will have the exceptional opportunity to advance to the ICPC World Finals.
+In last year’s regionals, 49,935 contestants from 3,098 universities in 111 countries on six continents competed at over 530 sites to advance to the 2018 World Finals.
+
