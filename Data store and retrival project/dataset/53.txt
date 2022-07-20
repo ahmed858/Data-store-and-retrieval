@@ -1,0 +1,37 @@
+What is Code Jam?
+google longest running global coding competition, Code Jam, calls on programmers around the world to solve challenging, algorithmic puzzles against the clock. Contestants advance through four online-hosted rounds to compete at the annual Code Jam World Finals that is held at a different international Google office each year. Each round brings new challenges, and in the end 25 contestants will have the ultimate chance to put their skills to the test, vying for cash prizes and the coveted championship title at the World Finals.
+How it works
+Register and compete in Code Jam’s Online Qualification Round. It lasts 27 hours, but you won't need that long to earn the round’s qualifying point minimum. Once you do, you’ll advance to Online Round 1. We offer three sub-rounds for Round 1, and you can compete in as many as it takes for you to finish in the top 1,500 of any of these rounds.
+
+The top 1,500 from each sub-round move on to compete for a spot in the top 1,000 contestants of Code Jam Online Round 2. These top 1,000 contestants advance to Online Round 3 and earn a limited edition Code Jam t-shirt.
+
+The top 25 contestants from Code Jam Online Round 3 will compete in the Virtual World Finals for the championship title and a cash prize of $15,000 USD.
+
+Looking for more challenges?
+Code Jam is one of the three competitions that Google holds for participants of all skill levels. Find your challenge.
+Overview
+keyboard_arrow_up
+I've never done Code Jam; what is it?
+Code Jam is an annual tournament in which you write code to solve algorithmic problems that have multiple layers of difficulty.
+
+Who is eligible to compete in Code Jam?
+See Section 1 (Eligibility) of the Coding Competitions Terms for complete eligibility criteria.
+
+How does Code Jam work?
+Create a Coding Competitions profile if you don't have one already. You can do this at any time. Then, when registration for the contest opens up, sign up! You must have or create a profile before you're able to register for a contest.
+Once the Round starts, a link on the homepage will direct you to the dashboard for that Round.
+On the Round Overview page, you'll see the problems. They will be listed in approximate order of difficulty, so we recommend starting with the first one.
+Read the problem description:
+The statement describes the problem that you need to write code to solve.
+The Input and Limits sections describe the test sets, which are an ordered list of difficulty targets for your program to hit. These sections make guarantees about the sort of data your code will have to run on for each test set.
+The Output and Sample sections clarify what your code has to do.
+Write a solution that you think can pass at least Test Set 1.
+If you'd like, you can test your solution on test cases of your choice. We strongly encourage you to do this as the provided Samples are not intended to cover all cases and rarely do.
+When you submit a solution, we will first run your code against the provided Sample cases (for non-interactive problems). If it passes those, we will run the code against Test Set 1, and on the next test set if that passes, and so on.
+For Visible Verdict Test Sets, you will learn during the Round whether your code passed. You can submit as many times as you like, with minor penalties.
+Solve as many test sets for as many problems as you can before the Round ends. The more test sets you solve, the higher your score.
+Will I receive a Code Jam certificate and when are they given out?
+As a Code Jam contestant, you will receive a certificate as long as you make at least one submission during the Qualification Round. You will receive your certificate after the Qualification Round ends. If you advance further in the competition, your certificate will automatically update and display the other rounds you participated in as well as your rank. Certificates will be available on your Coding Competitions profile and will appear sometime after the round ends. Please note that the Coding Competitions Terms and CJ Rules determine how certificates are issued, and you must abide by both to receive a certificate.
+
+Where can I submit feedback or other questions not answered here?
+If you have any questions not addressed in this FAQ or would like to submit feedback to the Code Jam team, please contact us at codejam@google.com and we will do our best to respond within two (2) business days. When a Round is active, please ask questions directly on the Contest dashboard using the “Ask a Question” button in the top right corner.

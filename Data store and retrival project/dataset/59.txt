@@ -1,0 +1,119 @@
+Kick Start 2022 is underway
+You're all set to solve fun and challenging Kick Start 2022 problems. Visit the schedule page and mark your calendar so you don't miss a round! Participate in one or join them all.
+What’s involved?
+Kick Start is a global online coding competition, consisting of three-hour rounds of a variety of algorithmic challenges designed by Google engineers. Participants can compete in one or all online rounds held throughout the year, and will have the opportunity to develop and grow their programming abilities while getting a glimpse into the technical skills needed for a career at Google (top participants may be invited to interview at Google).
+I've never done Kick Start; what is it?
+Kick Start is an online coding competition that offers single rounds throughout the year. In each round, you write code to solve algorithmic problems that have multiple layers of difficulty. Each round starts fresh, so you can participate in one round, or all of them!
+
+Who is eligible to compete in Kick Start?
+See Section 1 (Eligibility) of the Coding Competitions Terms for complete eligibility criteria.
+
+How does Kick Start work?
+Create a Coding Competitions profile if you don't have one already. You can do this at any time. Then, when registration for the contest opens up, sign up! You must have or create a profile before you're able to register for a contest.
+Once the Round starts, a link on the homepage will direct you to the dashboard for that Round.
+On the Round Overview page, you'll see the problems. They will be listed in approximate order of difficulty, so we recommend starting with the first one.
+Read the problem description:
+The statement describes the problem that you need to write code to solve.
+The Input and Limits sections describe the test sets, which are an ordered list of difficulty targets for your program to hit. These sections make guarantees about the sort of data your code will have to run on for each test set.
+The Output and Sample sections clarify what your code has to do.
+Write a solution that you think can pass at least Test Set 1.
+If you'd like, you can test your solution on test cases of your choice. We strongly encourage you to do this as the provided Samples are not intended to cover all cases and rarely do.
+When you submit a solution, we will first run your code against the provided Sample cases (for non-interactive problems). If it passes those, we will run the code against Test Set 1, and on the next test set if that passes, and so on.
+All Test Sets are “Visible Verdict Test Sets”, which means you will learn during the Round whether your code passed. You can submit as many times as you like, with minor penalties.
+Solve as many test sets for as many problems as you can before the Round ends. The more test sets you solve, the higher your score.
+Will I receive a Kick Start certificate and when are they given out?
+As a Kick Start contestant, you will receive a certificate after the first round you participate in, as long as you make one submission. If you participate in more than one round in a year, your certificate will automatically update and display after each round you participate in as well as your rank. Certificates will be available on your Coding Competitions profile and will appear sometime after the round ends. Please note that the Coding Competitions Terms and KS Rules determine how certificates are issued, and you must abide by both to receive a certificate.
+
+Where can I submit feedback or other questions not answered here?
+If you have any questions not addressed in this FAQ or would like to submit feedback to the Kick Start team, please contact us at kickstart@google.com and we will do our best to respond within two (2) business days. When a Round is active, please ask questions directly on the Contest dashboard using the “Ask a Question” button in the top right corner.
+What OS and browser should I use?
+You are free to use whichever operating system you wish for solving the problems. The website should work with the latest versions of most modern browsers; please let us know if you encounter any issues.
+
+What resources can I use?
+You're welcome to use any documents written before the contest started, including web pages, or code that you wrote or have a license to use. Other than during Practice Rounds (in which collaboration with other contestants is permissible), discussing the problems with other contestants, or anyone else, during the Contest is not allowed. Likewise, you aren't permitted to write publicly about the problems until after the Round is over.
+
+A Round is starting soon. Where do I go to compete?
+Visit the schedule page to see the official start times and access the Rounds to compete. Per our Coding Competitions Terms, if you are eligible to compete in the Round, you will see a link to the Round overview page once the Round has started.
+
+There is a Round happening right now, but I can only watch. Why?
+First, make sure that you're logged in with the same Google Account used to register for Kick Start. If you are logged in with the right account and you're still unable to compete, please contact us immediately at kickstart@google.com and we will investigate.
+
+Do I have to solve the problems in any particular order?
+You can solve the problems in any order you like. Looking at a problem does not start any timers, so feel free to read all of them at the start of the Round and then solve them in the order of your choice. There are different point values for each test set in each problem, and we generally give lower point values to what we think are easier test sets.
+
+How will you run my code on the different test sets?
+When you make an attempt, we will first run your code against the sample cases (for non-interactive problems). If your code does not pass these samples, your submission will not be tested on any of the test sets, and will not count as a penalty attempt.
+
+Then, we will run your code against Test Set 1. If it passes every test in that test set (within time and memory limits, etc.), we will run it on Test Set 2 (if there is one), and so on, in order. If your code fails a test set, we will not run it on test sets later in the order, even if it is possible that your code could have passed one or more of those test sets.
+
+How does Kick Start handle real numbers?
+Sometimes a decimal number will appear as part of an input file or a correct output file. This section describes how they work.
+In output files:
+The problem will specify if real numbers are treated specially, and will likely link to this FAQ answer. For example, in a problem where the correct output is Case #1: 500 2.3, the problem may indicate that the second value doesn't have to be the exact string 2.3, but could be any number within 10-6 of 2.3; but it might not indicate that for the 500, in which case that value would have to be exact. In that case, Case #1: 500 2.30000001 would be accepted, but Case #1: 500.0 2.3 would not.
+Specially-treated real numbers must be expressed in decimal form, with the decimal point expressed as a . (dot or period) character, not a , (comma) character.
+Two specially-treated real numbers are considered equal if their absolute or relative difference is smaller than some constant amount, typically 10-6. More details follow.
+ Our judge program will accept real numbers using an "e" or "E" character to indicate exponential notation, like 5e6 or 1.0e9 (but not like 1,0e9). The number following the "e" or "E" must be an integer.
+ Unless the problem specifies otherwise, in input files:
+Real numbers will be expressed in decimal form, with the decimal expressed as a . character, not a , character.
+We will not use a "thousands" separator for integers or real numbers. One thousand will be expressed as 1000, 1000.000 or something similar; but not as 1,000.
+We will not use exponential notation.
+ The "absolute or relative difference" check is implemented by code equivalent to the following Python code:
+      
+        def IsApproximatelyEqual(x, y, epsilon):
+          """Returns True if y is within relative or absolute 'epsilon' of x.
+          """
+          # Check absolute precision.
+          if -epsilon <= x - y <= epsilon:
+            return True
+
+          # Is x or y too close to zero?
+          if -epsilon <= x <= epsilon or -epsilon <= y <= epsilon:
+            return False
+
+          # Check relative precision.
+          return (-epsilon <= (x - y) / x <= epsilon
+              or -epsilon <= (x - y) / y <= epsilon)
+      
+    
+Note that although real numbers in output files are sometimes considered equivalent to other real numbers, real numbers in input files are considered exact. For example, if you are asked to output "true" or "false" according to whether the input is less than 2.0, and the number provided in the input file is 1.9999999, then "true" is the only acceptable result.
+ Some examples:
+ Unless the problem specifies otherwise, the following will not express real numbers in input files: 2,000, 1,5, 6.022e23.
+In an output file, if the correct output is 1000.0 and an absolute or relative difference of 10-6 is permitted, then the following will be considered correct: 1000.001, 1000, 999.999, 1000., 1e3, 10.00001e2, 9.99999E2 (all are within a relative distance of 10-6). The following will be considered incorrect: 1000.002, 1,000, 1000,0, 999.998.
+In an output file, if the correct output is 0.001 and an absolute or relative difference of 10-6 is permitted, then 0.001001 and 0.000999 will be considered correct (both are within an absolute difference of 10-6).
+In an output file, if the correct output is 1000 and there is nothing to indicate that token will be judged specially, then only the exact string 1000 will be considered correct.
+How does Kick Start handle whitespace in input files?
+Unless otherwise stated in the problem's Input section:
+When an input file has multiple values on the same line, every two adjacent values are separated by a single space character (ASCII 32 / 0x20).
+Each line ends with a single newline character (\n).
+There is no other whitespace.
+How does Kick Start handle whitespace in output files?
+Any amount of non-line-break whitespace (defined as spaces and tabs) is treated as a single space. We also ignore leading and trailing whitespace on each line.
+
+Make sure that you have a space between any distinct components of the output as defined in the Output section, and as demonstrated in the Sample Output. Also, do not break up a component by adding a space.
+
+For example, if the Output section asks you to output Case #1: followed by two integers, and the Sample Output shows Case #1: 2 3, none of the following would be valid:
+Case# 1: 2 3
+Case # 1: 2 3
+Case #1 : 2 3
+Case#1: 2 3
+Case #1:2 3
+Case #1: 23
+What if a test case has multiple correct solutions?
+If a test case has multiple correct solutions, you may output any one of them. Some statements may tell you to break ties in a specific way or give the parts of the solution in a specific order, in which case you have to abide by those rules. If, after applying every rule about choosing a solution and formatting it in the statement, there are still multiple options, then all of them will be considered correct.
+
+What are Visible Verdict Test Sets?
+All Test Sets in the Kick Start Contest are "Visible Verdict Test Sets”. Each problem has a sample test set (except for interactive problems), followed by one or more Visible Verdict Test Sets. During the round, whenever you make an attempt, you will see how many Test Sets that attempt passed.
+
+Will I be able to see the contents of the test sets?
+For each test set, the Limits section of a problem statement will tell you how many tests there can be and will make other guarantees about the test parameters, but you will not be able to see the contents of the test sets themselves during the contest. Once a round is finalized, you can download the input and output files from the analyses pages. We recommend you practice debugging your solutions without looking at the data.
+
+What phases of judging do the time and memory limits apply to?
+The time limit applies only to the running time. If there is a compilation step for the language being used, there is a fixed limit of 30 seconds to compile. We calculate all times taken by your submission as user time + system time. In a program which uses multiple processes and/or threads, the sum of the times taken for each process and/or thread will be used. This usually means that a parallel computation will be slower than the same computation performed sequentially, because of the overhead required. Additionally, the time limit applies to an entire test set, not to each individual test case.
+
+The memory limit refers to the maximum amount of memory that can be in use at any given time during the entire process of compiling (if applicable) and running your code.
+
+Are the questions available in other languages? Can I use a translator?
+Because programming problems often require very precise language, the risk of mistranslating a problem is too great, and the consequences are very severe: a single wrong word can give a very real disadvantage or advantage to contestants reading it. Because of this, we've decided not to make the problems available in more than one language. You may use any mechanical translator of your choice. Talking about the problems with other people, even translators, is not allowed. You are responsible for any consequences of a mistranslation.
+
+How can I ask for help or report an issue during a Round?
+You can submit your question via the “Ask a question” button on the problem overview page. Keep in mind that in order to keep things fair for all contestants, we cannot provide hints or clarify the statements. We may share your question (anonymously, with the wording possibly edited for clarity) and our answer with all contestants.
